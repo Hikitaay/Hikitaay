@@ -1,34 +1,23 @@
-- имя: Руководство по стилю ROS в формате C ++
- # Вы можете привязать к точной фиксации или версии.
- # использует: AutoModality/action-ros-clang-format@e6bdc58082b38ba8b66bfa39f11c7d77e9bb811a
-использует: AutoModality/action-ros-clang-format@v1.0.1
- с:
- # Имя, которое будет отображаться в коммитах, когда необходимо зафиксировать изменения
-имя автора: # необязательно, по умолчанию используется формат Bot
- # Адрес электронной почты, который будет отображаться при фиксации изменений, когда необходимо зафиксировать
-автор-электронная почта: # необязательно, по умолчанию formatter@github.bot
- # Сообщение о фиксации, используемое, когда необходимо зафиксировать изменения
- сообщение о фиксации: # необязательно, по умолчанию используется стиль: руководство по стилю ROS C ++
- 
- using System;
 
+ using System;
+//Первые кодики на C#
 class Program {
     static void Main(string[] args) {
       Console.WriteLine("Первое задание");
-      Console.Write("Первое число ");
-      string a=Console.ReadLine();
-      Console.Write("Второе число ");
-      string b=Console.ReadLine();
+         Console.Write("Первое число ");
+           string a=Console.ReadLine();
+         Console.Write("Второе число ");
+           string b=Console.ReadLine();
       double a1=double.Parse(a);
       double b1=double.Parse(b);
       Console.WriteLine((a1+b1)/2);
        Console.WriteLine("-------------------------------");
       Console.WriteLine("Второе задание");
-      Console.Write("Третье число ");
+       Console.Write("Третье число ");
       string c=Console.ReadLine();
       double c1=double.Parse(c);
       Console.WriteLine(a1+b1+c1);
-       Console.WriteLine(a1*b1*c1);
+      Console.WriteLine(a1*b1*c1);
       Console.WriteLine("-------------------------------");
       Console.WriteLine("Третье задание");
       double rub=1;
